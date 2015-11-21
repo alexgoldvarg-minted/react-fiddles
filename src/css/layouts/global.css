@@ -18,13 +18,15 @@ li {
   border-radius: 2px;
   font-size: 40px;
   text-transform: uppercase;
-  display: table;
-  height: 100px;
+  min-height: 120px;
 }
 
 span {
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
+}
+
+input {
+  text-align: center;
 }
 
 .active {
@@ -36,6 +38,7 @@ span {
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
